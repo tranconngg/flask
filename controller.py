@@ -2,7 +2,6 @@ from __init__ import app
 from flask import render_template
 import untils
 
-
 @app.route("/")
 def home():
     cates = untils.load_categorys()
