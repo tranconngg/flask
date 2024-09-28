@@ -1,0 +1,27 @@
+[
+    {
+        "name": "iPhone 14 Pro",
+        "brand": "Apple",
+        "price": 999.99
+    },
+    {
+        "name": "Samsung Galaxy S23 Ultra",
+        "brand": "Samsung",
+        "price": 1199.99
+    },
+    {
+        "name": "Google Pixel 7 Pro",
+        "brand": "Google",
+        "price": 899.99
+    },
+    {
+        "name": "OnePlus 11",
+        "brand": "OnePlus",
+        "price": 749.99
+    },
+    {
+        "name": "Sony Xperia 1 IV",
+        "brand": "Sony",
+        "price": 1099.99
+    }
+]

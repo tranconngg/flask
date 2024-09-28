@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANG CHU</title>
+    <link href = "{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1 class="subject" >Chao mung cac ban den voi website ban hang </h1>
+
+    <ul>
+        <li><a href="#">Tat ca san pham </a></li>
+        {% for c in categorys %}
+        <li><a href="#">{{c.Opera}}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
